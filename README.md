@@ -60,8 +60,7 @@ Phishing Detection: 98%+
 False Positives: <2%
 Analysis Time: <5 seconds
 
-<div align="center">
 ⭐ Star this repository if you find it helpful!
 Built with ❤️ by nk55aur
 Protecting the digital world, one URL at a time 🛡️
-</div>
+
