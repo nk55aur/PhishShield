@@ -26,35 +26,23 @@ pip install -r requirements.txt
 python main.py
 
 Usage:
-
 from detector import PhishingDetector
-
 detector = PhishingDetector()
 result = detector.analyze_url("https://example.com")
 print(f"Risk: {result['risk_score']}% - {result['status']}")
 
 📁 Project Structure:
-
 PhishShield/
-├── main.py              # Main application
-
-├── detector.py          # Core detection engine
-
-├── url_analyzer.py      # URL analysis
-
-├── content_analyzer.py  # Content analysis
-
-├── ssl_analyzer.py      # SSL validation
-
-├── utils.py            # Utilities
-
-└── requirements.txt    # Dependencies
-
-└── README.md               # Overview
-
+├── main.py                   # Main application
+├── detector.py               # Core detection engine
+├── url_analyzer.py           # URL analysis
+├── content_analyzer.py       # Content analysis
+├── ssl_analyzer.py           # SSL validation
+├── utils.py                  # Utilities
+└── requirements.txt          # Dependencies
+└── README.md                 # Overview
 └── PROJECT_DOCUMENTATION.md  # Technical documentation
-
-└── LICENSE.md                 # MIT License
+└── LICENSE.md                # MIT License
 
 📊 Results:
 Example Output:
@@ -69,18 +57,11 @@ RISK: 92% 🚨 PHISHING
 Accuracy:
 
 Phishing Detection: 98%+
-
 False Positives: <2%
-
 Analysis Time: <5 seconds
-
-📄 License
-MIT License - see LICENSE.md
 
 <div align="center">
 ⭐ Star this repository if you find it helpful!
 Built with ❤️ by nk55aur
-
 Protecting the digital world, one URL at a time 🛡️
-
 </div>
