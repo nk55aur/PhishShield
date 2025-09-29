@@ -4,6 +4,7 @@
 ## 🏗️ Architecture Overview
 
 PhishShield uses a modular architecture with specialized analyzers:
+
 📋 Project Overview
 
 PhishShield is a comprehensive, multi-layered phishing detection system that combines rule-based analysis, list-based filtering, and behavioral analysis to identify malicious websites with high accuracy. Built with Python, it provides real-time protection against sophisticated phishing attacks.
@@ -228,6 +229,7 @@ urllib3==1.26.16
 python-whois==0.8.0
 colorama==0.4.6
 tqdm==4.65.0
+
 
 
 
